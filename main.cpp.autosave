@@ -1,0 +1,16 @@
+#include "mainwindow.h"
+#include <QApplication>
+#include "ui_mainwindow.h"
+
+int main(int argc, char *argv[])
+{
+    QApplication a(argc, argv);
+    int i=0;
+    MainWindow w;
+    while (i>6){
+     Window.on_pushButton_clicked();  
+    }
+    w.show();
+
+    return a.exec();
+}
